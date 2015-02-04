@@ -1,6 +1,6 @@
 #angular-middle directive
 ***
-[AngularJS](http://angularjs.org/) directive to align elements centered vertically and horizontally
+[AngularJS](http://angularjs.org/) directive to center elements vertically and horizontally. If the element is longer than container, it will be expanded.
 
 ##Quick start
 ***
@@ -13,7 +13,7 @@ Load `angular-middle.css` and `angular-middle.js` into your html:
 
 Inject `angular-middle` into your application module:
 ```javascript
-var app = angular.module('myApp', ['angular-middle']);
+var app = angular.module('myApp', ['middle']);
 ```
 
 Have fun:

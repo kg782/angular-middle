@@ -1,12 +1,9 @@
 'use strict';
 
-angular.module('angularMiddle', [])
+angular.module('middle', [])
   .directive('middle', function () {
     return {
-      template:
-        '<div class="middle-wrapper">' +
-          '<div class="middle-wrapper2" ng-transclude></div>' +
-        '</div>',
+      template: '<div class="middle-wrapper" ng-transclude></div>',
       restrict: 'A',
       transclude: true,
       link: function postLink(scope, element, attrs) {
